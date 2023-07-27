@@ -3,18 +3,16 @@
 body
 {
 
-    /* Діагональний градієнт */
     background: linear-gradient(to bottom right, #374873, #7a2418);
-    /* Запобігає повторенню градієнту */
     background-repeat: no-repeat;
-    /* Заповнює весь фон сторінки */
     background-attachment: fixed;
-    /* Встановлюємо висоту 100%, щоб градієнт заповнив увесь екран */
     height: 100%;
-    /* Виключаємо внутрішні відступи */
     margin: 0;
     font-family: Montserrat;
     color: #d9e2ec;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
 }
 
@@ -22,14 +20,6 @@ body::-webkit-scrollbar
 {
 
     display: none;
-
-}
-
-body
-{
-
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 
 }
 
@@ -83,13 +73,6 @@ p
 {
 
     text-indent: 20px; /* Відступ першого рядка в пікселях */
-
-}
-
-audio
-{
-
-    color: red;
 
 }
 
@@ -267,40 +250,6 @@ audio
 
 }
 
-.ukraine-panel
-{
-    margin: auto;
-    width: fit-content;
-
-}
-
-.ukraine
-{
-
-    transition: background-color 0.5s;
-
-    border-radius: 10px;
-
-}
-
-
-.ukraine:hover
-{
-
-    background-color: #243b53;
-    border-radius: 10px;
-    
-}
-
-.location
-{
-
-    width: 20px;
-    margin-bottom: -3px;
-    margin-right: 5px;
-
-}
-
 .text-extra
 {
 
@@ -388,85 +337,6 @@ audio
 
 }
 
-.socialgroup-plus
-{
-
-    display: inline;
-
-}
-
-.socialbutton-plus
-{
-
-    transition: background-color 0.5s;
-
-    background-color: #243b53;
-    padding: 10px;
-    border-radius: 10px;
-    width: 20px;
-
-    text-align: center;
-    float: right;
-
-    margin: 0px;
-    margin-right: 10px;
-    margin-top: 10px;
-
-}
-
-.socialbutton-plus-2
-{
-
-    transition: background-color 0.5s;
-
-    background-color: #243b53;
-    padding: 10px;
-    border-radius: 10px;
-    width: 20px;
-
-    text-align: center;
-    float: right;
-
-    margin: 0px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-
-}
-
-.socialbutton-plus:hover
-{
-
-    background-color: #334e68;
-
-}
-
-.socialbutton-plus-2:hover
-{
-
-    background-color: #334e68;
-
-}
-
-.socialbutton-minus
-{
-
-    transition: background-color 0.5s;
-
-    background-color: #243b53;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    width: 150px;
-
-}
-
-.socialbutton-minus:hover
-{
-
-    background-color: #334e68;
-
-}
-
 .socialicon
 {
 
@@ -508,222 +378,6 @@ audio
 {
 
     transform: rotate(10deg);
-
-}
-
-.embed-v
-{
-
-    display: block;
-    border-radius: 30px;
-    margin: auto;
-    width: 100%;
-
-}
-
-.base
-{
-
-    transition: transform 0.5s;
-
-    display: block;
-    padding: 10px;
-    width: 300px;
-    border-radius: 20px;
-    transform: rotate(0deg);
-    margin: auto;
-
-}
-
-.base:hover
-{
-
-    transform: rotate(5deg)
-
-
-
-}
-
-.base:target
-{
-
-    width: 100%;
-
-}
-
-.ul-base
-{
-
-    text-align: center;
-
-}
-
-.ul-link
-{
-
-    
-    text-align: center;
-    width: fit-content;
-
-}
-
-.ul-link:hover
-{
-
-    transition: background-color 0.3s;
-
-    background-color: #243b53;
-
-}
-
-.item
-{
-
-    display: block;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 5px;
-
-}
-
-.item-meme
-{
-
-    display: block;
-    width: 100px;
-    border-radius: 50%;
-    margin: auto;
-    padding: 5px;
-    cursor: pointer;
-
-    animation-name: rotation;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-
-}
-
-.playing {
-    animation-play-state: running;
-}
-
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-.item-table
-{
-
-    width: 100%
-
-}
-
-.item-text
-{
-
-    text-align: center;
-    margin: 10px;
-
-}
-
-.item-sq
-{
-
-    width: 50%;
-
-}
-
-.background-image
-{
-
-    position: fixed;
-    top: 400px;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-    height: 150px;
-    pointer-events: none;
-    z-index: -1;
-
-}
-
-.other-block-1
-{
-
-    background-image: url(photos/setup.jpg);
-    background-size: cover;
-    background-position: center;
-
-    width: 90%;
-    height: 200px;
-    background-color: white;
-    border: solid 5px;
-    border-color: #486581;
-    border-radius: 50px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-
-}
-
-.other-block-2
-{
-
-    background-image: url(photos/soft.jpg);
-    background-size: cover;
-    background-position: center;
-
-    width: 90%;
-    height: 200px;
-    background-color: white;
-    border: solid 5px;
-    border-color: #486581;
-    border-radius: 50px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-
-}
-
-.other-block-3
-{
-
-    background-image: url(photos/game.jpg);
-    background-size: cover;
-    background-position: center;
-
-    width: 90%;
-    height: 200px;
-    background-color: white;
-    border: solid 5px;
-    border-color: #486581;
-    border-radius: 50px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-
-}
-
-.game-ico
-{
-
-    display: block;
-    height: 300px;
-    border-radius: 20px;
-    margin: auto;
 
 }
 
