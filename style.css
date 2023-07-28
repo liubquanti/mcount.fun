@@ -72,7 +72,7 @@ a
 p
 {
 
-    text-indent: 20px; /* Відступ першого рядка в пікселях */
+    text-indent: 20px;
 
 }
 
@@ -246,7 +246,7 @@ p
     border-radius: 50%;
     margin: auto;
     border: 5px solid;
-    border-color: #243b53;
+    border-color: #e15f5b;
 
 }
 
@@ -495,17 +495,4 @@ p
 
     }
 
-    .base
-    {
-
-        width: 200px;
-
-    }
-
-    .background-image
-    {
-
-        display: none;
-
-    }
 }
