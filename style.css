@@ -321,7 +321,7 @@ p
 
     transition: background-color 0.5s;
 
-    background-color: #243b53;
+    background-color: #e15f5b;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -333,7 +333,7 @@ p
 .socialbutton:hover
 {
 
-    background-color: #334e68;
+    background-color: #833835;
 
 }
 
@@ -378,6 +378,20 @@ p
 {
 
     transform: rotate(10deg);
+
+}
+
+.seasoncover
+{
+
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 50px;
+    border: solid 5px;
+    border-color: #e15f5b;
+    margin-bottom: 10px;
+    margin-top: 10px;
 
 }
 
