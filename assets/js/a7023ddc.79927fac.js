@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmine_count=self.webpackChunkmine_count||[]).push([[112],{1568:e=>{e.exports=JSON.parse('[{"label":"changelog","permalink":"/blog/tags/changelog","count":1}]')}}]);
