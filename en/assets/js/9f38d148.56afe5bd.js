@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmine_count=self.webpackChunkmine_count||[]).push([[980],{2080:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

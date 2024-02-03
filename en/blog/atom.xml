@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mcount.fun/en/blog/</id>
+    <title>Mine Count Blog</title>
+    <updated>2024-02-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mcount.fun/en/blog/"/>
+    <subtitle>Mine Count Blog</subtitle>
+    <icon>https://mcount.fun/en/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Оновлено сайт!]]></title>
+        <id>https://mcount.fun/en/blog/2024/02/03/changelog</id>
+        <link href="https://mcount.fun/en/blog/2024/02/03/changelog"/>
+        <updated>2024-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Оновлено сайт!]]></summary>
+        <content type="html"><![CDATA[<p>Оновлено сайт!</p>]]></content>
+        <category label="changelog" term="changelog"/>
+    </entry>
+</feed>

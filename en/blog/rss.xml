@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Mine Count Blog</title>
+        <link>https://mcount.fun/en/blog/</link>
+        <description>Mine Count Blog</description>
+        <lastBuildDate>Sat, 03 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Оновлено сайт!]]></title>
+            <link>https://mcount.fun/en/blog/2024/02/03/changelog</link>
+            <guid>https://mcount.fun/en/blog/2024/02/03/changelog</guid>
+            <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Оновлено сайт!]]></description>
+            <content:encoded><![CDATA[<p>Оновлено сайт!</p>]]></content:encoded>
+            <category>changelog</category>
+        </item>
+    </channel>
+</rss>
