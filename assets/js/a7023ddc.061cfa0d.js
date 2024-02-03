@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiscord_resource_wiki=self.webpackChunkdiscord_resource_wiki||[]).push([[112],{1568:e=>{e.exports=JSON.parse('[{"label":"changelog","permalink":"/blog/tags/changelog","count":5}]')}}]);
