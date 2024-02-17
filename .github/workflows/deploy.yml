@@ -1,0 +1,19 @@
+name: Remote update execution
+on:
+  push:
+    branches:
+      - gh-pages
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Pull latest commit and deploy it to production
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_KEY }}
+        command_timeout: 30m
+        script: |
+                    bash /opt/scripts/deploy.sh

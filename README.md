@@ -1,2 +1,2 @@
-# mcount.ml
-Minecrft server site
+# jbrave.ml
+Terraria server site
