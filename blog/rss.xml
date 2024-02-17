@@ -4,15 +4,15 @@
         <title>Mine Count Blog</title>
         <link>https://mcount.fun/blog/</link>
         <description>Mine Count Blog</description>
-        <lastBuildDate>Sat, 03 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>uk</language>
         <item>
-            <title><![CDATA[Оновлено сайт!]]></title>
-            <link>https://mcount.fun/blog/2024/02/03/changelog</link>
-            <guid>https://mcount.fun/blog/2024/02/03/changelog</guid>
-            <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+            <title><![CDATA[Блог]]></title>
+            <link>https://mcount.fun/blog/2024/02/13/changelog</link>
+            <guid>https://mcount.fun/blog/2024/02/13/changelog</guid>
+            <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Оновлено сайт!]]></description>
             <content:encoded><![CDATA[<p>Оновлено сайт!</p>]]></content:encoded>
             <category>changelog</category>
