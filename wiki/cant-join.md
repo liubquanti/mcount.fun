@@ -48,7 +48,7 @@ srv.mcount.fun
 
 ## 2. Проблема Xbox для Bedrock
 
-![1707039147451](https://mcount.fun/assets/images/1707039147451-da98e67d6a3657b8d62cf52b7eb6ed49.png)
+![1708296359510](image/cant-join/1708296359510.png)
 
 Якщо ви отримуєте повідомлення `Please log into Xbox to join this server`, то це означає, що ви не увійшли до свого облікового запису Microsoft Xbox. Розв'язання цієї проблеми доволі легке:
 
