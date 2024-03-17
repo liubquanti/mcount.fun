@@ -72,7 +72,7 @@ const config = {
 				},
 				{
 					name: 'theme-color',
-					content: '#c46e6e',
+					content: '#e24040',
 				},
 				{
 					name: 'twitter:card',
