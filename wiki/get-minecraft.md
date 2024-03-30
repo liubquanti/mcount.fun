@@ -1,7 +1,7 @@
 ---
 title: Вікі
 sidebar_label: 🗝️ ┇ Де отримати Minecraft?
-sidebar_position: 8
+sidebar_position: 9
 description: Джерела на отриманна гри Minecraft.
 ---
 # 🗝️ ┇ Де отримати Minecraft?
