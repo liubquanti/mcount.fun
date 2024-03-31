@@ -75,8 +75,8 @@ description: Додаткове програмне забезпечення дл
 
 Завантажити версію клієнтського моду, сумісну із версією серверного плагіна можна нижче:
 
-- [Fabric](https://sharemods.com/kczie0dq26g9/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar.html) (Minecraft Java 1.20)
-- [Forge](https://sharemods.com/4khb77v4slc7/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar.html) (Minecraft Java 1.20)
+- [Fabric](https://sharemods.com/kczie0dq26g9/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar.html) (Minecraft Java 1.20, 1.20.1)
+- [Forge](https://sharemods.com/4khb77v4slc7/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar.html) (Minecraft Java 1.20, 1.20.1)
 
 ![1711881809476](image/software/1711881809476.png)
 
