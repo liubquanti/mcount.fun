@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const themes = require('prism-react-renderer').themes;
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
@@ -10,7 +7,6 @@ const inviteWidgetPlugin = require('./src/plugins/inviteWidgetPlugin');
 const linebreakPlugins = require('./src/plugins/linebreakPlugin');
 const blogAuthorWidgetPlugin = require('./src/plugins/blogAuthorWidgetPlugin');
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Mine Count',
 	tagline:
@@ -31,7 +27,6 @@ const config = {
 	presets: [
 		[
 			'@docusaurus/preset-classic',
-			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
@@ -62,9 +57,7 @@ const config = {
 	],
 
 	themeConfig:
-		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
-			// We don't set the description and title here to assure that the right og:tags will be delivered per page.
 			metadata: [
 				{
 					name: 'og:image',
@@ -123,10 +116,8 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 			algolia: {
-				// The application ID provided by Algolia
 				appId: 'KO08RT1BUB',
 
-				// Public API key: it is safe to commit it
 				apiKey: '90b11a8ac9c24d6fc6aa7aa88c159215',
 
 				indexName: 'discordresources',
