@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmine_count_site=self.webpackChunkmine_count_site||[]).push([[512],{4352:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u0411\u043b\u043e\u0433","permalink":"/blog/2024/02/13/changelog"}]}')}}]);
