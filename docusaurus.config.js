@@ -10,14 +10,14 @@ const blogAuthorWidgetPlugin = require('./src/plugins/blogAuthorWidgetPlugin');
 const config = {
 	title: 'Mine Count',
 	tagline:
-		'Офіційний сайт Minecraft сервера Mine Count.',
+		'Офіційна вікі Minecraft сервера Mine Count.',
 	url: 'https://mcount.fun',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.png',
 	organizationName: 'White-Heart-Dev',
-	projectName: 'Mine-Count-Site',
+	projectName: 'Mine-Count-Wiki',
 
 	i18n: {
 		defaultLocale: "uk",
@@ -30,7 +30,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					editUrl: 'https://github.com/liubquanti-dev/Mine-Count-Site/edit/main/',
+					editUrl: 'https://github.com/liubquanti-dev/Mine-Count-Wiki/edit/main/',
 					path: 'wiki',
 					routeBasePath: '/',
 					remarkPlugins: [linebreakPlugins, inviteWidgetPlugin, userWidgetInlinePlugin],
@@ -96,7 +96,7 @@ const config = {
 						position: 'left',
 					},
 					{
-						href: 'https://github.com/liubquanti-dev/Mine-Count-Site',
+						href: 'https://github.com/liubquanti-dev/Mine-Count-Wiki',
 						className: 'navbar-item-github',
 						position: 'right',
 					},
