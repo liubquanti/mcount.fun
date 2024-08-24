@@ -11,7 +11,7 @@ const config = {
 	title: 'Mine Count',
 	tagline:
 		'Офіційна вікі Minecraft сервера Mine Count.',
-	url: 'https://mcount.fun',
+	url: 'https://wiki.mcount.fun',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -86,8 +86,9 @@ const config = {
 				},
 				items: [
 					{
-						to: '/',
-						label: 'Вікі',
+						to: 'https://mcount.fun',
+						label: 'Сайт',
+						target: '_self',
 						position: 'left',
 					},
 					{
