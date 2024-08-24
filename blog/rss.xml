@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mine Count Blog</title>
-        <link>https://mcount.fun/blog/</link>
+        <link>https://wiki.mcount.fun/blog/</link>
         <description>Mine Count Blog</description>
         <lastBuildDate>Tue, 13 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>uk</language>
         <item>
             <title><![CDATA[Блог]]></title>
-            <link>https://mcount.fun/blog/2024/02/13/changelog</link>
-            <guid>https://mcount.fun/blog/2024/02/13/changelog</guid>
+            <link>https://wiki.mcount.fun/blog/2024/02/13/changelog</link>
+            <guid>https://wiki.mcount.fun/blog/2024/02/13/changelog</guid>
             <pubDate>Tue, 13 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Оновлено сайт!]]></description>
             <content:encoded><![CDATA[<p>Оновлено сайт!</p>]]></content:encoded>

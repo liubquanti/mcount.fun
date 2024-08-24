@@ -4,8 +4,8 @@
   <ShortName>Mine Count</ShortName>
   <Description>Search Mine Count</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://mcount.fun/img/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://mcount.fun/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://mcount.fun/opensearch.xml" />
-  <moz:SearchForm>https://mcount.fun/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://wiki.mcount.fun/img/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://wiki.mcount.fun/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://wiki.mcount.fun/opensearch.xml" />
+  <moz:SearchForm>https://wiki.mcount.fun/</moz:SearchForm>
 </OpenSearchDescription>
