@@ -82,12 +82,13 @@ const config = {
 				logo: {
 					alt: 'Логотип Mine Count',
 					src: 'img/logo-small.png',
-					href: '/',
+					href: 'https://mcount.fun',
+					target: '_self',
 				},
 				items: [
 					{
-						to: 'https://mcount.fun',
-						label: 'Сайт',
+						to: '/',
+						label: 'Вікі',
 						target: '_self',
 						position: 'left',
 					},
@@ -95,6 +96,12 @@ const config = {
 						to: 'blog',
 						label: 'Блог',
 						position: 'left',
+					},
+					{
+						to: 'https://map.mcount.fun',
+						label: 'Мапа',
+						position: 'left',
+						target: '_self',
 					},
 					{
 						href: 'https://github.com/liubquanti-dev/Mine-Count-Wiki',
