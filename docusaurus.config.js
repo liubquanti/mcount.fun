@@ -104,6 +104,11 @@ const config = {
 						target: '_self',
 					},
 					{
+						href: 'https://stats.uptimerobot.com/NowpAIVNnk',
+						className: 'navbar-item-uptimerobot',
+						position: 'right',
+					},
+					{
 						href: 'https://github.com/liubquanti-dev/Mine-Count-Wiki',
 						className: 'navbar-item-github',
 						position: 'right',
