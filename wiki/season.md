@@ -2,6 +2,7 @@
 title: Вікі
 sidebar_label: 🍀 ┇ Поточний сезон
 sidebar_position: 2
+slug: /
 description: Інформація про поточний сезон сервера Mine Count.
 ---
 # 🍀 ┇ Сезон 6 - Throug Nature
