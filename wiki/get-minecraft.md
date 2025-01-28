@@ -14,7 +14,7 @@ description: Джерела на отриманна гри Minecraft.
 
 ### 🖥️ ┇ Персональний комп'ютер
 
-Існує два видання Minecraft для персональних комп'ютерів [Java](https://mcount.fun/minecraft#java) та [Bedrock](https://mcount.fun/minecraft#bedrock).
+Існує два видання Minecraft для персональних комп'ютерів [Java](/get-minecraft#--java) та [Bedrock](/get-minecraft#--bedrock).
 
 #### 🍵 ┇ Java
 
