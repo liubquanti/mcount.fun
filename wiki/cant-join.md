@@ -43,7 +43,7 @@ srv.mcount.fun
 * Порт:
 
 ```text
-25570
+25649
 ```
 
 ## 2. Проблема Xbox для Bedrock
